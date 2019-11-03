@@ -19,6 +19,7 @@ public class GetAllContactNames {
 
         // when
         List<String> actualNames = phoneBook.getAllContactNames();
+        Arrays.sort(names); // The given names are not in any order that makes sense to begin with
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
@@ -36,6 +37,7 @@ public class GetAllContactNames {
 
         // when
         List<String> actualNames = phoneBook.getAllContactNames();
+        Arrays.sort(names); // The given names are not in any order that makes sense to begin with
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
@@ -53,6 +55,7 @@ public class GetAllContactNames {
 
         // when
         List<String> actualNames = phoneBook.getAllContactNames();
+        Arrays.sort(names); // The given names are not in any order that makes sense to begin with
 
         // then
         Assert.assertEquals(Arrays.asList(names), actualNames);
